@@ -1,0 +1,57 @@
+[0.066s] Invoking command in '/home/mhpromit7473/Workspaces/ros2_py_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mhpromit7473/Workspaces/ros2_py_ws/build/udemy_ros2_pkg -- -j2 -l2
+[0.273s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.267s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[1.567s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.038s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.044s] -- Added test 'lint_cmake' to check CMake code style
+[2.048s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.063s] -- Added test 'xmllint' to check XML markup files
+[2.075s] -- Configuring done
+[2.157s] -- Generating done
+[2.174s] -- Build files have been written to: /home/mhpromit7473/Workspaces/ros2_py_ws/build/udemy_ros2_pkg
+[2.515s] Built target ament_cmake_python_copy_scripts
+[3.713s] running egg_info
+[3.718s] creating scripts.egg-info
+[3.726s] writing scripts.egg-info/PKG-INFO
+[3.732s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[3.733s] writing top-level names to scripts.egg-info/top_level.txt
+[3.734s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[3.765s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[3.767s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[4.063s] Built target ament_cmake_python_build_scripts_egg
+[4.183s] Invoked command in '/home/mhpromit7473/Workspaces/ros2_py_ws/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mhpromit7473/Workspaces/ros2_py_ws/build/udemy_ros2_pkg -- -j2 -l2
+[4.546s] Invoking command in '/home/mhpromit7473/Workspaces/ros2_py_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mhpromit7473/Workspaces/ros2_py_ws/build/udemy_ros2_pkg
+[4.576s] -- Install configuration: ""
+[4.577s] -- Installing: /home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.sh
+[4.580s] -- Installing: /home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.dsv
+[4.581s] -- Installing: /home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info
+[4.581s] -- Installing: /home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt
+[4.582s] -- Installing: /home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO
+[4.582s] -- Installing: /home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.582s] -- Installing: /home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.582s] -- Installing: /home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts
+[4.585s] -- Installing: /home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/subscriber.py
+[4.586s] -- Installing: /home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/publisher.py
+[4.586s] -- Installing: /home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/__init__.py
+[4.681s] Listing '/home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts'...
+[4.681s] Compiling '/home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/__init__.py'...
+[4.681s] Compiling '/home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/publisher.py'...
+[4.682s] Compiling '/home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/subscriber.py'...
+[4.695s] -- Installing: /home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/publisher.py
+[4.696s] -- Installing: /home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/subscriber.py
+[4.698s] -- Installing: /home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/udemy_ros2_pkg
+[4.702s] -- Installing: /home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/udemy_ros2_pkg
+[4.704s] -- Up-to-date: /home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.sh
+[4.704s] -- Installing: /home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.dsv
+[4.705s] -- Up-to-date: /home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.sh
+[4.705s] -- Installing: /home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.dsv
+[4.705s] -- Up-to-date: /home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.bash
+[4.705s] -- Installing: /home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.sh
+[4.706s] -- Up-to-date: /home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.zsh
+[4.706s] -- Installing: /home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.dsv
+[4.706s] -- Installing: /home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.dsv
+[4.706s] -- Up-to-date: /home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/packages/udemy_ros2_pkg
+[4.707s] -- Up-to-date: /home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig.cmake
+[4.710s] -- Up-to-date: /home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig-version.cmake
+[4.710s] -- Installing: /home/mhpromit7473/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.xml
+[4.711s] Invoked command in '/home/mhpromit7473/Workspaces/ros2_py_ws/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mhpromit7473/Workspaces/ros2_py_ws/build/udemy_ros2_pkg
