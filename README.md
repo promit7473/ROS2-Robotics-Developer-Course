@@ -8,4 +8,7 @@ Using ROS2 in Python
 3. Robotics Simulation Tools to create virtual Robotic environments
 
 
-<centre>![image](/home/mhpromit7473/Downloads)</centre>
+<p align="center">
+  <img src="[images]/demo.gif" alt="Demo GIF" width="500">
+</p>
+
