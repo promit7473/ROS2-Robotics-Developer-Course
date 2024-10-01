@@ -1,0 +1,623 @@
+1
+00:00:00,600 --> 00:00:05,820
+In this lecture we'll be learning how to install ROS to humble on Ubuntu 2204.
+
+2
+00:00:05,940 --> 00:00:11,760
+These installation steps will be similar for debian based Linux distributions, but just note for this
+
+3
+00:00:11,760 --> 00:00:16,260
+course I will be using ubuntu 2204 as my operating system.
+
+4
+00:00:16,860 --> 00:00:21,660
+Before we begin, I just want to note that in this course I will be using a terminal emulator called
+
+5
+00:00:21,660 --> 00:00:27,930
+Tilex, which allows me to easily open and access multiple tabs on the same screen to access the native
+
+6
+00:00:27,930 --> 00:00:28,680
+Ubuntu terminal.
+
+7
+00:00:28,710 --> 00:00:36,030
+You can either head over to the apps icon and type in terminal or alternatively you can hit control
+
+8
+00:00:36,030 --> 00:00:38,370
+alt rt on your keyboard to open one.
+
+9
+00:00:38,670 --> 00:00:45,480
+Then one of the things I like to do is right click on the terminal icon in my dock and favored it so
+
+10
+00:00:45,480 --> 00:00:48,720
+that I can easily access it for future use.
+
+11
+00:00:49,820 --> 00:00:52,910
+You can follow along through the rest of this course using this standard terminal.
+
+12
+00:00:52,910 --> 00:00:57,470
+But like I said, I will be installing the tile terminal emulator so you can install it through the
+
+13
+00:00:57,470 --> 00:01:01,340
+following commands so you'll be prompted for your password.
+
+14
+00:01:02,660 --> 00:01:02,990
+All right.
+
+15
+00:01:02,990 --> 00:01:09,020
+So we've gone ahead and updated our app repositories and I'll go ahead and install Tilex hit Y and enter.
+
+16
+00:01:10,330 --> 00:01:10,900
+All righty.
+
+17
+00:01:10,900 --> 00:01:16,090
+Once that's installed, I can go ahead and head back over to the apps icon and search up Title X and
+
+18
+00:01:16,090 --> 00:01:16,640
+there we see it.
+
+19
+00:01:16,660 --> 00:01:18,160
+So I'll go ahead and hit enter.
+
+20
+00:01:18,960 --> 00:01:22,140
+And so now this is my new terminal, which I will be using.
+
+21
+00:01:22,440 --> 00:01:27,240
+So as usual, I'll go ahead and right click on it, add it to favorites so that I can easily access
+
+22
+00:01:27,240 --> 00:01:28,500
+it later on.
+
+23
+00:01:28,920 --> 00:01:32,100
+Then I can go ahead and configure my terminal settings.
+
+24
+00:01:32,800 --> 00:01:34,620
+So it's this configuration issue detected.
+
+25
+00:01:34,630 --> 00:01:39,550
+Don't worry about this, we'll just hit OC and all we need to do is head over to the default tab at
+
+26
+00:01:39,550 --> 00:01:46,630
+over to command and then we will run the command as a login shell and I'll head over to color and you
+
+27
+00:01:46,630 --> 00:01:51,910
+can change this however you want, but I will go ahead and be using the Molokai Dark theme.
+
+28
+00:01:53,550 --> 00:01:57,720
+And by any means you can increase the terminal size if you want to.
+
+29
+00:01:57,750 --> 00:02:01,680
+So say increase how many default columns there are.
+
+30
+00:02:02,750 --> 00:02:03,680
+And Rose.
+
+31
+00:02:05,150 --> 00:02:06,650
+So I'll just make that a bit bigger.
+
+32
+00:02:07,820 --> 00:02:09,430
+And I can go ahead and close this.
+
+33
+00:02:09,440 --> 00:02:10,940
+So this is our old terminal.
+
+34
+00:02:10,940 --> 00:02:14,930
+So I'll be closing this and this will be the tile terminal, which I'll be using for now.
+
+35
+00:02:14,930 --> 00:02:15,920
+I'll close it.
+
+36
+00:02:15,920 --> 00:02:19,700
+We can reopen it and we can see this is the new size which we just set.
+
+37
+00:02:19,700 --> 00:02:23,990
+And you can open up new terminal tabs however you want, whether either on the right or on the bottom
+
+38
+00:02:23,990 --> 00:02:28,790
+using these buttons so you can get secondary terminals, which we'll be using throughout the course.
+
+39
+00:02:28,940 --> 00:02:29,420
+All right.
+
+40
+00:02:29,420 --> 00:02:34,880
+With that out of the way, you can open up a browser and head over to the Ross Humble Installation page.
+
+41
+00:02:34,970 --> 00:02:40,040
+I'll be using the Chrome browser, but it is completely fine to use the default Firefox browser or any
+
+42
+00:02:40,040 --> 00:02:41,540
+other browser of your choosing.
+
+43
+00:02:41,840 --> 00:02:46,970
+Please double check that you are on the Ross Humble installation page and not some other distribution
+
+44
+00:02:46,970 --> 00:02:47,990
+like Ross Fox.
+
+45
+00:02:47,990 --> 00:02:51,590
+Because this distribution is meant for Ubuntu 22.4.
+
+46
+00:02:51,950 --> 00:02:56,720
+For now, I'll go ahead and slide this terminal over to the left so that it expands accordingly.
+
+47
+00:02:57,080 --> 00:03:04,340
+Once here I will select the Debian package link under ubuntu linux jammy jellyfish 22.4.
+
+48
+00:03:04,370 --> 00:03:09,290
+Make sure not to accidentally click one of the other links below or the ubuntu linux building from source
+
+49
+00:03:09,290 --> 00:03:14,210
+as that will take much longer than just using the debian package for ubuntu.
+
+50
+00:03:15,140 --> 00:03:17,090
+So I'll go ahead and scroll down.
+
+51
+00:03:18,200 --> 00:03:19,900
+So first things first is setting up locale.
+
+52
+00:03:19,910 --> 00:03:25,190
+If you're on Ubuntu 22.4 desktop, you should be already set, but you can just double check by typing
+
+53
+00:03:25,190 --> 00:03:30,680
+in this locale command and you can pace either using control shift V or by right clicking and hit paste.
+
+54
+00:03:30,680 --> 00:03:32,780
+And then I'll go ahead and hit enter.
+
+55
+00:03:33,820 --> 00:03:38,220
+And as long as you see this UTF eight setting, then you're good to go.
+
+56
+00:03:38,230 --> 00:03:43,450
+If you don't see UTF eight, then you'd run the rest of these commands to make sure that you are set
+
+57
+00:03:43,450 --> 00:03:45,490
+to the UTF eight environment.
+
+58
+00:03:45,520 --> 00:03:45,920
+All right.
+
+59
+00:03:45,940 --> 00:03:48,370
+Next up, we'll go ahead and set up our sources.
+
+60
+00:03:48,370 --> 00:03:51,730
+So it says you'll need to add the RAR to app repository to your system.
+
+61
+00:03:51,730 --> 00:03:58,090
+So that's what allows us to install the ROS to APT package as well as install future ROS packages and
+
+62
+00:03:58,090 --> 00:03:59,380
+keep things updated.
+
+63
+00:03:59,380 --> 00:04:02,710
+So it says first make sure that the Ubuntu universal repository is enabled.
+
+64
+00:04:02,710 --> 00:04:08,680
+Again, this should be fine by default and you can check by copying this command in hitting enter.
+
+65
+00:04:08,680 --> 00:04:14,560
+And as long as you see this 500 message and we see ubuntu gemmy, you're fine.
+
+66
+00:04:14,740 --> 00:04:16,300
+Like I said, this is fine by default.
+
+67
+00:04:16,300 --> 00:04:20,200
+This is only for special installations of ubuntu that this may not apply to.
+
+68
+00:04:20,470 --> 00:04:25,750
+So if you don't see a message that looks something like this, you can run these lines to install the
+
+69
+00:04:25,750 --> 00:04:31,150
+software properties common and add universe repository sharing onto your system.
+
+70
+00:04:31,360 --> 00:04:37,060
+Next up, we can go ahead and add the ROS to app repository to our system so we can just go ahead and
+
+71
+00:04:37,060 --> 00:04:40,930
+hit this copy to clipboard button and I'll go ahead and paste it in as usual.
+
+72
+00:04:40,930 --> 00:04:44,740
+And you might get an error like this because we're calling sudo and I'll just hit paste anyway.
+
+73
+00:04:46,240 --> 00:04:47,230
+And I can hit enter.
+
+74
+00:04:48,250 --> 00:04:49,330
+Put in your password.
+
+75
+00:04:51,160 --> 00:04:52,390
+I'll hit y enter.
+
+76
+00:04:53,350 --> 00:04:54,650
+All right, so we've added the repository.
+
+77
+00:04:54,670 --> 00:04:57,100
+Now, let's add it to our sources list with this command.
+
+78
+00:04:59,650 --> 00:05:02,810
+And now we can actually go ahead and install ROS two.
+
+79
+00:05:02,830 --> 00:05:06,190
+So we can go ahead and do sudo apt update.
+
+80
+00:05:07,510 --> 00:05:12,430
+And here it actually recommends that you upgrade your Ubuntu system to make sure your system is up to
+
+81
+00:05:12,430 --> 00:05:15,310
+date before installing your ROS package.
+
+82
+00:05:15,310 --> 00:05:17,110
+So we can run that as well.
+
+83
+00:05:18,590 --> 00:05:18,920
+All right.
+
+84
+00:05:18,920 --> 00:05:19,880
+That's out of the way.
+
+85
+00:05:20,000 --> 00:05:25,760
+And now we can scroll down and finally we can actually get to installing the Ross Humble desktop app
+
+86
+00:05:25,760 --> 00:05:26,690
+repository.
+
+87
+00:05:27,350 --> 00:05:28,310
+I didn't run that.
+
+88
+00:05:28,670 --> 00:05:31,880
+And so here we see it's going to take about three gigabytes of additional disk space.
+
+89
+00:05:31,880 --> 00:05:32,830
+So just be wary of that.
+
+90
+00:05:32,840 --> 00:05:34,280
+So I'll hit Y and enter.
+
+91
+00:05:35,230 --> 00:05:38,950
+So as I mentioned, this will take some time depending on your Internet connection and your computer
+
+92
+00:05:38,950 --> 00:05:39,610
+processor.
+
+93
+00:05:39,610 --> 00:05:43,750
+So I will go ahead and speed up the video to when the installation finishes.
+
+94
+00:05:44,500 --> 00:05:44,950
+All right.
+
+95
+00:05:44,950 --> 00:05:47,410
+So that took about 15 minutes to finish.
+
+96
+00:05:47,410 --> 00:05:52,480
+So just expect this to take about 20 or 25 minutes or so, depending on your computer and internet speed
+
+97
+00:05:52,480 --> 00:05:55,000
+to download and install ROS.
+
+98
+00:05:55,030 --> 00:05:55,510
+Okay.
+
+99
+00:05:55,510 --> 00:05:58,960
+With that, we now have ROS installed onto our computer.
+
+100
+00:05:58,960 --> 00:06:03,280
+Before we can use it, we need to set up our terminal environment to be able to use ROS.
+
+101
+00:06:03,460 --> 00:06:10,660
+In order to use ROS in the terminal we must first source our terminal to ROS set up bash file so we
+
+102
+00:06:10,660 --> 00:06:14,290
+can go ahead and source it now with this command that we see here.
+
+103
+00:06:15,840 --> 00:06:16,260
+For now.
+
+104
+00:06:16,260 --> 00:06:20,730
+I'll go ahead and clear the screen and then I can paste in the command.
+
+105
+00:06:22,000 --> 00:06:26,210
+And so once we do this in our terminal, we can now use our Ross commands.
+
+106
+00:06:26,230 --> 00:06:30,310
+So it is worth noting we need to run this command every time we open a new terminal in order to use
+
+107
+00:06:30,310 --> 00:06:33,520
+ROS, we will set up our environment in a bit to automatically source.
+
+108
+00:06:33,520 --> 00:06:39,010
+We can test that Ros works in the terminal by running the example code provided down below.
+
+109
+00:06:39,010 --> 00:06:46,210
+So as we saw, we sourced our ROS instance using this line right here and then we can run a example
+
+110
+00:06:46,210 --> 00:06:49,060
+talker node by running this line right here.
+
+111
+00:06:49,060 --> 00:06:51,310
+And again, don't worry about the commands too much right now.
+
+112
+00:06:51,310 --> 00:06:55,930
+We'll explain them later in the course, but just know this is going to run an example node which publishes
+
+113
+00:06:55,930 --> 00:06:57,430
+some messages which we will see in a bit.
+
+114
+00:06:58,990 --> 00:07:00,940
+So I run it and it says Publishing.
+
+115
+00:07:00,940 --> 00:07:01,630
+Hello world.
+
+116
+00:07:01,630 --> 00:07:03,430
+One, two, three, and so on.
+
+117
+00:07:03,430 --> 00:07:09,190
+So I'll go ahead and open up a second terminal tab right below and we can run these two commands right
+
+118
+00:07:09,190 --> 00:07:09,460
+here.
+
+119
+00:07:09,460 --> 00:07:14,320
+So we'll have to source our Ros Humble installation and then we will be running a listener node which
+
+120
+00:07:14,320 --> 00:07:15,970
+subscribes to these messages coming in.
+
+121
+00:07:15,970 --> 00:07:17,560
+So go ahead and paste that.
+
+122
+00:07:19,440 --> 00:07:25,450
+And here we see I heard Hello World and the number corresponding to what was being published.
+
+123
+00:07:25,470 --> 00:07:30,780
+So here we can see it's receiving the published messages and printing them out as it subscribes.
+
+124
+00:07:30,780 --> 00:07:34,830
+And you can kind of see if I stop this first terminal here, I stopped the publisher.
+
+125
+00:07:34,830 --> 00:07:38,190
+It stops receiving the messages over us to stop running these notes.
+
+126
+00:07:38,190 --> 00:07:40,770
+You can just hit control C in each terminal.
+
+127
+00:07:40,770 --> 00:07:45,780
+So now, to make it so that all of our terminals we open are able to use the ROS terminal commands without
+
+128
+00:07:45,780 --> 00:07:47,160
+having to run the source command.
+
+129
+00:07:47,160 --> 00:07:53,010
+We will have to modify our bash, our C file, which the documentation goes over in the next tutorial.
+
+130
+00:07:53,010 --> 00:07:58,020
+So if I go ahead and scroll down, it's this next step after installing, continue with the tutorials
+
+131
+00:07:58,020 --> 00:07:58,530
+and demos.
+
+132
+00:07:58,530 --> 00:08:04,470
+So I'll just click on this and here we see a tutorial on configuring your ROS to environment so I can
+
+133
+00:08:04,470 --> 00:08:05,640
+go ahead and click on that.
+
+134
+00:08:06,150 --> 00:08:10,380
+You can read a little bit on the background, but essentially all we're going to be doing is modifying
+
+135
+00:08:10,380 --> 00:08:14,010
+our bash, our file to run this command on startup.
+
+136
+00:08:14,010 --> 00:08:16,140
+So we actually see right here.
+
+137
+00:08:17,170 --> 00:08:22,000
+Says Echo, and it has that same command and it points it to the end of our bash, our C file, so I
+
+138
+00:08:22,000 --> 00:08:26,020
+can just go ahead and copy that and I'll run it in our terminal.
+
+139
+00:08:26,170 --> 00:08:31,300
+And now this has been written to the end of our bash, our C file, which runs every time we open a
+
+140
+00:08:31,300 --> 00:08:32,200
+new terminal.
+
+141
+00:08:32,530 --> 00:08:35,200
+And so just to prove this, I can go ahead and close this terminal tab.
+
+142
+00:08:35,530 --> 00:08:36,490
+Open a new one.
+
+143
+00:08:37,910 --> 00:08:46,220
+And I can actually go ahead and rerun the Talker node without having to source our Ross installation.
+
+144
+00:08:47,490 --> 00:08:49,320
+And so we see it runs as normal.
+
+145
+00:08:49,320 --> 00:08:53,400
+So now we're able to use all of our commands within any new terminals that we open up.
+
+146
+00:08:53,430 --> 00:08:57,060
+Lastly, if you ever wanted to check your environment variables, if I actually go ahead and scroll
+
+147
+00:08:57,060 --> 00:09:02,430
+down, we can call this print and command, which will print our environment variables.
+
+148
+00:09:02,430 --> 00:09:05,190
+So I'll go ahead and clear the screen and paste this in.
+
+149
+00:09:05,580 --> 00:09:12,690
+And so here we see things such as the ROS version being version two, because this is Ros two and our
+
+150
+00:09:12,690 --> 00:09:17,070
+Ros Python version is three and our ROS distro is humble.
+
+151
+00:09:17,070 --> 00:09:23,490
+So this just goes to show that now our terminal environment is now sourced to our Ros Humble distribution
+
+152
+00:09:23,490 --> 00:09:27,270
+and so now our environment is fully set up to run all these ROS commands.
+
+153
+00:09:27,930 --> 00:09:28,920
+Congratulations.
+
+154
+00:09:28,920 --> 00:09:34,950
+With that you've successfully installed Ros, feel free to look over the ROS to documentation website
+
+155
+00:09:34,950 --> 00:09:37,830
+pages for more information if you're interested.
+
+156
+00:09:38,040 --> 00:09:41,610
+But with that, let's move on to installing our code editor.
