@@ -9,6 +9,6 @@ Using ROS2 in Python
 
 
 <p align="center">
-  <img src="[images]/demo.gif" alt="Demo GIF" width="500">
+  <img src="images/demo.gif" alt="Demo GIF" width="500">
 </p>
 
