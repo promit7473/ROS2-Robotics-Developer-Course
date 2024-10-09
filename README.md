@@ -6,6 +6,11 @@ Using ROS2 in Python
 1. Tools available in the ROS2 Framework
 2. Using the new ROS2 Client Library to develop code for robots in Python
 3. Robotics Simulation Tools to create virtual Robotic environments
+4. ROS2 advance features
+	-Local network ROS communication
+	-Security Configurations
+	-Builing ROS from source
+	-ROS bridge communication with ROS1
 
 
 <p align="center">
