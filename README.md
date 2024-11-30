@@ -1,4 +1,6 @@
-'ROS2-Robotics-Developer-Course'
+```
+ROS2-Robotics-Developer-Course
+```
 Using ROS2 in Python
 
 <center> ## Brief Syllabus </center>
